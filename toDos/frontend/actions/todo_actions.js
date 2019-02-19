@@ -1,0 +1,21 @@
+import React from 'react';
+import Redux from 'redux';
+
+export const RECEIVE_TODOS = "RECEIVE_TODOS";
+export const receiveTodos = (todos) => {
+  return {
+    type: RECEIVE_TODOS,
+    todos
+  }
+}
+
+export const RECEIVE_TODO = "RECEIVE_TODO";
+export const receiveTodo = (todo) => {
+  return {
+    type: RECEIVE_TODO,
+    todo
+  }
+}
+
+window.receiveTodo = receiveTodo;
+window.receiveTodos = receiveTodos;
