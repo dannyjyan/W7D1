@@ -1,6 +1,3 @@
-import React from 'react';
-import Redux from 'redux';
-
 export const RECEIVE_TODOS = "RECEIVE_TODOS";
 export const receiveTodos = (todos) => {
   return {
@@ -17,5 +14,5 @@ export const receiveTodo = (todo) => {
   }
 }
 
-window.receiveTodo = receiveTodo;
-window.receiveTodos = receiveTodos;
+// window.receiveTodo = receiveTodo;
+// window.receiveTodos = receiveTodos;
